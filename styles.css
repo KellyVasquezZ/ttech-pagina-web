@@ -1,0 +1,174 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif
+}
+
+.certifications ul {
+  list-style: none;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+.w3-button:hover {
+    color: #fff !important;
+    background-color: #d290ae !important;
+}
+
+.content {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px !important;
+}
+
+.margin-top {
+    margin-top: 16px !important;
+}
+
+.margin-right {
+    margin-right: 16px !important;
+}
+
+.row-padding {
+    padding: 0 8px;
+}
+
+.padding-bottom {
+    padding-bottom: 16px;
+}
+
+.bg-white {
+    color: #000!important;
+    background-color: #fff!important
+}
+
+.color-pink {
+    color: #fff !important;
+    background-color: #de5e97 !important;
+}
+
+.color-light-grey {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+}
+
+.text-pink {
+    color: #de5e97 !important;
+}
+
+.text-grey {
+    color: #757575 !important;
+}
+
+.name {
+    padding: 0.01em 16px;
+    
+}
+
+.name h2 {
+    font-weight: bold !important;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #de5e97;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d290ae;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    padding-bottom: 16px;
+}
+
+thead {
+    background-color: #de5e97;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background: white;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+
+    td::before {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 45%;
+        white-space: nowrap;
+        font-weight: bold;
+        color: #de5e97;
+    }
+    
+    td:nth-of-type(1)::before { content: "Hora"; }
+    td:nth-of-type(2)::before { content: "Lunes"; }
+    td:nth-of-type(3)::before { content: "Martes"; }
+    td:nth-of-type(4)::before { content: "Miércoles"; }
+    td:nth-of-type(5)::before { content: "Jueves"; }
+    td:nth-of-type(6)::before { content: "Viernes"; }
+}
